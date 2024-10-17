@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tarker.Booking.Common\Tarker.Booking.Common.csproj" />
+    <ProjectReference Include="..\Tarker.Booking.External\Tarker.Booking.External.csproj" />
+    <ProjectReference Include="..\Tarker.Booking.Persistence\Tarker.Booking.Persistence.csproj" />
+    <ProjectReference Include="..\Tarket.Booking.Application\Tarker.Booking.Application.csproj" />
+  </ItemGroup>
+
+</Project>
