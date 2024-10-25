@@ -12,7 +12,6 @@ namespace Tarker.Booking.Persistence.Database
         public DatabaseService(DbContextOptions options) : base(options) { 
         
         }
-
         public DbSet<UserEntity> User { get; set; }
         public DbSet<CustomerEntity> Customer { get; set; }
         public DbSet<BookingEntity> Booking { get; set; }

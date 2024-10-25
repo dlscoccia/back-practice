@@ -16,7 +16,11 @@
       "launchUrl": "",
       "applicationUrl": "http://localhost:5194",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "clientId": "bfc3b71b-1d50-41a2-be69-6d53901f1e0b",
+        "tenantId": "de1a58b9-8acf-42b8-9b21-8a2f43e5ebc1",
+        "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
+
       }
     },
     "IIS Express": {
@@ -24,7 +28,10 @@
       "launchBrowser": true,
       "launchUrl": "",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "clientId": "bfc3b71b-1d50-41a2-be69-6d53901f1e0b",
+        "tenantId": "de1a58b9-8acf-42b8-9b21-8a2f43e5ebc1",
+        "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
       }
     }
   }
