@@ -19,7 +19,7 @@
                 "ASPNETCORE_ENVIRONMENT": "local",
                 "clientId": "",
                 "tenantId": "",
-                "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
+                "clientSecret": ""
             }
         },
         "IIS Express": {
@@ -30,7 +30,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "clientId": "",
                 "tenantId": "",
-                "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
+                "clientSecret": ""
             }
         }
     }
