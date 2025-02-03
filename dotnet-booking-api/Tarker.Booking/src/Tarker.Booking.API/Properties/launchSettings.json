@@ -1,38 +1,37 @@
 ﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:15290",
-      "sslPort": 0
-    }
-  },
-  "profiles": {
-    "http": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "",
-      "applicationUrl": "http://localhost:5194",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "local",
-        "clientId": "bfc3b71b-1d50-41a2-be69-6d53901f1e0b",
-        "tenantId": "de1a58b9-8acf-42b8-9b21-8a2f43e5ebc1",
-        "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
-
-      }
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:15290",
+            "sslPort": 0
+        }
     },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "clientId": "bfc3b71b-1d50-41a2-be69-6d53901f1e0b",
-        "tenantId": "de1a58b9-8acf-42b8-9b21-8a2f43e5ebc1",
-        "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
-      }
+    "profiles": {
+        "http": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "",
+            "applicationUrl": "http://localhost:5194",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "local",
+                "clientId": "",
+                "tenantId": "",
+                "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
+            }
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "launchUrl": "",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "clientId": "",
+                "tenantId": "",
+                "clientSecret": "IGl8Q~Z7mUkmI5myM85JvqQUNsrpmsnIocbMNb.3"
+            }
+        }
     }
-  }
 }
