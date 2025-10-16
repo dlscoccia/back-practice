@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "n84n6uwkmR3z7NS2q7QEceGi2oQvprWzMESwwnnylCc=",
+  "Source": "NetCoreApi",
+  "BasePath": "_content/NetCoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NetCoreApi\\wwwroot",
+      "Source": "NetCoreApi",
+      "ContentRoot": "D:\\Repos\\Estudio\\NetCoreApi\\wwwroot\\",
+      "BasePath": "_content/NetCoreApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Repos\\Estudio\\NetCoreApi\\wwwroot\\index.html",
+      "SourceId": "NetCoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\Estudio\\NetCoreApi\\wwwroot\\",
+      "BasePath": "_content/NetCoreApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

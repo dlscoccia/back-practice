@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "f73d8fd",
+    "Description": "Comer saludable",
+    "Completed": true,
+    "CreatedAt": "2024-01-15T00:00:00",
+    "ModifiedAt": "2025-10-10T10:02:02.5260607-04:00",
+    "Deleted": true
+  },
+  {
+    "Id": "3f6c921",
+    "Description": "Estudiar C#",
+    "Completed": false,
+    "CreatedAt": "2025-03-11T15:20:53.051415-04:00",
+    "ModifiedAt": "2025-03-12T13:16:17.74727-04:00",
+    "Deleted": false
+  },
+  {
+    "Id": "3a92c3b",
+    "Description": "Fonzilordcito",
+    "Completed": true,
+    "CreatedAt": "2025-10-10T09:54:10.8452156-04:00",
+    "ModifiedAt": "2025-10-10T10:06:27.6238348-04:00",
+    "Deleted": false
+  }
+]
