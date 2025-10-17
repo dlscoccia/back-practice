@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\curso-cshrap-ef.props" />
-</Project>
