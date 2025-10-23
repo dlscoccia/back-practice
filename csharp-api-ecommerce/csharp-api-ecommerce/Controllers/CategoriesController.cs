@@ -1,13 +1,16 @@
 using AutoMapper;
+using csharp_api_ecommerce.Constants;
 using csharp_api_ecommerce.Models.Dtos;
 using csharp_api_ecommerce.Repository.IRepository;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace csharp_api_ecommerce.Controllers
 {
+    [Authorize(Roles = "admin")]
     [Route("api/[controller]")]
     [ApiController]
+    // [EnableCors(PolicyNames.AllowSpecificOrigin)]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;
@@ -19,9 +22,11 @@ namespace csharp_api_ecommerce.Controllers
             _mapper = mapper;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
+
         public IActionResult GetCategories()
         {
             var categories = _categoryRepository.GetCategories();
@@ -33,7 +38,9 @@ namespace csharp_api_ecommerce.Controllers
             return Ok(categoriesDto);
         }
 
+        [AllowAnonymous]
         [HttpGet("{id:int}", Name = "GetCategory")]
+        [ResponseCache(CacheProfileName = CacheProfiles.Default10)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

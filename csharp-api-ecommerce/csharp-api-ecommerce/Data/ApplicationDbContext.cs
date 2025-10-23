@@ -9,4 +9,5 @@ public class ApplicationDbContext:DbContext
   
   public DbSet<Category> Categories { set; get; }
   public DbSet<Product> Products { set; get; }
+  public DbSet<User> Users { set; get; }
 }
